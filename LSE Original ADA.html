@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Combined LSE Assessment and Feedback Resources</title>
+  <style>
+    :root {
+      --text: #1f2933;
+      --muted: #5f6c7b;
+      --border: #d9e2ec;
+      --background: #ffffff;
+      --soft: #f7f9fb;
+      --accent: #4b5563;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+    .page { max-width: 1080px; margin: 0 auto; padding: 40px 24px 72px; }
+    .cover {
+      border-bottom: 3px solid var(--text);
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+    }
+    .cover h1 { font-size: 2.4rem; line-height: 1.15; margin: 0 0 10px; }
+    .cover p { color: var(--muted); margin: 0; font-size: 1rem; }
+    nav.toc {
+      background: var(--soft);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin: 0 0 40px;
+    }
+    nav.toc h2 { margin-top: 0; }
+    nav.toc ol { list-style: none; padding-left: 0; margin: 0; }
+    nav.toc li { margin: 4px 0; }
+    nav.toc a { color: var(--text); text-decoration: none; }
+    nav.toc a:hover { text-decoration: underline; }
+    .toc-level-1 { font-weight: 700; margin-top: 12px; }
+    .toc-level-2 { padding-left: 18px; }
+    .toc-level-3 { padding-left: 36px; font-size: 0.95rem; }
+    .toc-level-4, .toc-level-5, .toc-level-6 { padding-left: 54px; font-size: 0.9rem; color: var(--muted); }
+    .document-section {
+      margin: 48px 0;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+    .document-header {
+      background: var(--soft);
+      border-left: 6px solid var(--accent);
+      padding: 18px 22px;
+      margin-bottom: 24px;
+    }
+    .document-header h1 { margin: 0; font-size: 2rem; line-height: 1.2; }
+    .eyebrow {
+      margin: 0 0 6px;
+      color: var(--muted);
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3, h4, h5, h6 { line-height: 1.25; margin-top: 1.6em; }
+    h2 { font-size: 1.55rem; border-bottom: 1px solid var(--border); padding-bottom: 0.25em; }
+    h3 { font-size: 1.25rem; }
+    p { margin: 0 0 1em; }
+    ul, ol { margin-top: 0.25em; margin-bottom: 1em; }
+    li { margin-bottom: 0.25em; }
+    table { border-collapse: collapse; width: 100%; margin: 1.25em 0; }
+    th, td { border: 1px solid var(--border); padding: 8px 10px; vertical-align: top; }
+    th { background: var(--soft); text-align: left; }
+    blockquote { border-left: 4px solid var(--border); margin-left: 0; padding-left: 1em; color: var(--muted); }
+    a { color: #1d4ed8; }
+    hr { border: 0; border-top: 1px solid var(--border); margin: 2em 0; }
+    @media print {
+      .page { max-width: none; padding: 20mm; }
+      nav.toc { break-after: page; }
+      .document-section { break-before: page; }
+      a { color: inherit; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="cover" id="top">
+      <h1>Combined LSE Assessment and Feedback Resources</h1>
+      <p>Combined from seven uploaded DOCX documents into one clean HTML file with clear document sections and headings.</p>
+    </header>
+
+    <nav class="toc" aria-labelledby="toc-heading">
+      <h2 id="toc-heading">Table of Contents</h2>
+      <ol>
+        <li class="toc-level-1"><a href="#assessment-methods-terminology-at-lse">Assessment methods terminology at LSE</a></li>
+        <li class="toc-level-1"><a href="#collaborative-assessment-design-decision-making-framework">Collaborative Assessment Design Decision Making Framework</a></li>
+        <li class="toc-level-1"><a href="#effective-feedback">Effective feedback</a></li>
+        <li class="toc-level-2"><a href="#effective-feedback-principle-7-plan-timely-and-actionable-feedback-that-students-can-apply-to-improve-future-learning">Principle 7 - Plan timely and actionable feedback that students can apply to improve future learning</a></li>
+        <li class="toc-level-3"><a href="#effective-feedback-how-can-peer-feedback-be-used">How can peer feedback be used?</a></li>
+        <li class="toc-level-1"><a href="#lse-assessment-and-feedback-principles-2025">LSE assessment and feedback principles 2025</a></li>
+        <li class="toc-level-2"><a href="#lse-assessment-and-feedback-principles-2025-assessment-and-feedback-principles-at-lse">Assessment and Feedback Principles at LSE</a></li>
+        <li class="toc-level-1"><a href="#lse-assessment-toolkit">LSE Assessment Toolkit</a></li>
+        <li class="toc-level-2"><a href="#lse-assessment-toolkit-introduction">Introduction</a></li>
+        <li class="toc-level-2"><a href="#lse-assessment-toolkit-key-areas-of-consideration">Key Areas of Consideration</a></li>
+        <li class="toc-level-3"><a href="#lse-assessment-toolkit-1-learning-outcomes-and-assessment-alignment">1. Learning Outcomes and Assessment Alignment</a></li>
+        <li class="toc-level-3"><a href="#lse-assessment-toolkit-2-principles-of-assessment-diversification">2. Principles of Assessment Diversification</a></li>
+        <li class="toc-level-3"><a href="#lse-assessment-toolkit-3-feedback-opportunities">3. Feedback Opportunities</a></li>
+        <li class="toc-level-3"><a href="#lse-assessment-toolkit-4-inclusive-assessment-design">4. Inclusive Assessment Design</a></li>
+        <li class="toc-level-3"><a href="#lse-assessment-toolkit-5-creativity-in-assessment">5. Creativity in Assessment</a></li>
+        <li class="toc-level-3"><a href="#lse-assessment-toolkit-6-reducing-student-stress">6. Reducing Student Stress</a></li>
+        <li class="toc-level-3"><a href="#lse-assessment-toolkit-7-preparing-students-for-the-labour-market">7. Preparing Students for the Labour Market</a></li>
+        <li class="toc-level-2"><a href="#lse-assessment-toolkit-course-development-process">Course Development Process</a></li>
+        <li class="toc-level-2"><a href="#lse-assessment-toolkit-additional-resources">Additional Resources</a></li>
+        <li class="toc-level-2"><a href="#lse-assessment-toolkit-references">References</a></li>
+        <li class="toc-level-1"><a href="#marking-and-moderation-lse-assessment-toolkit">Marking and Moderation LSE Assessment Toolkit</a></li>
+        <li class="toc-level-2"><a href="#marking-and-moderation-lse-assessment-toolkit-marking-and-moderation">Marking and moderation</a></li>
+        <li class="toc-level-3"><a href="#marking-and-moderation-lse-assessment-toolkit-double-blind-marking">Double-blind marking</a></li>
+        <li class="toc-level-3"><a href="#marking-and-moderation-lse-assessment-toolkit-sighted-double-marking">Sighted double marking</a></li>
+        <li class="toc-level-3"><a href="#marking-and-moderation-lse-assessment-toolkit-moderated-single-marking">Moderated single marking</a></li>
+        <li class="toc-level-2"><a href="#marking-and-moderation-lse-assessment-toolkit-marking-criteria">Marking criteria</a></li>
+        <li class="toc-level-3"><a href="#marking-and-moderation-lse-assessment-toolkit-defining-clear-and-transparent-marking-criteria">Defining clear and transparent marking criteria</a></li>
+        <li class="toc-level-3"><a href="#marking-and-moderation-lse-assessment-toolkit-effective-use-of-marking-criteria-for-marking-and-feedback">Effective use of marking criteria for marking and feedback</a></li>
+        <li class="toc-level-2"><a href="#marking-and-moderation-lse-assessment-toolkit-supporting-marking-teams">Supporting marking teams</a></li>
+        <li class="toc-level-3"><a href="#marking-and-moderation-lse-assessment-toolkit-marking-calibration-before-the-marking-window">Marking Calibration before the marking window</a></li>
+        <li class="toc-level-3"><a href="#marking-and-moderation-lse-assessment-toolkit-marking-guidance-to-support-individual-markers-during-the-marking-window">Marking guidance to support individual markers during the marking window</a></li>
+        <li class="toc-level-1"><a href="#marking-criteria">Marking Criteria</a></li>
+        <li class="toc-level-2"><a href="#marking-criteria-what-are-marking-criteria">What are marking criteria?</a></li>
+        <li class="toc-level-2"><a href="#marking-criteria-defining-clear-and-transparent-marking-criteria">Defining clear and transparent marking criteria</a></li>
+        <li class="toc-level-2"><a href="#marking-criteria-effective-use-of-marking-criteria-for-marking-and-feedback">Effective use of marking criteria for marking and feedback</a></li>
+        <li class="toc-level-2"><a href="#marking-criteria-supporting-marking-teams-to-ensure-fair-and-consistent-marking">Supporting marking teams to ensure fair and consistent marking</a></li>
+        <li class="toc-level-2"><a href="#marking-criteria-references">References</a></li>
+      </ol>
+    </nav>
+
+    <section class="document-section" id="assessment-methods-terminology-at-lse">
+  <header class="document-header">
+    <p class="eyebrow">Document 1</p>
+    <h1>Assessment methods terminology at LSE</h1>
+  </header>
+  <div class="document-content">
+<p>Akari is the LSE assessment data management system. It categorises assessment components by its methods. Below are the assessment methods used at LSE.</p>
+<p>Akari includes four ‘modes’, describing broad forms of assessment (assignment, in class, exam and dissertation), and lists many more granular ‘methods’ of assessment, as shown below. </p>
+<ul>
+<li><p><strong>Case studies</strong>. Includes Akari method: Case analysis/study </p></li>
+<li><p><strong>Course participation</strong>. Includes Akari methods: Course participation  </p></li>
+<li><p><strong>Dissertations</strong>. Includes Akari methods: Dissertation draft, Dissertation Plan, Dissertation proposal, Dissertation</p></li>
+<li><p><strong>Exams</strong>. Includes Akari methods: Exam </p></li>
+<li><p><strong>Essays</strong>. Includes Akari methods: Essay, Essay plan, Position Piece</p></li>
+<li><p>Group-work</p></li>
+<li><p><strong>Multimedia</strong>. Includes Akari methods: Poster, Podcast, Video, Visual Media, PowerPoint Slides  </p></li>
+<li><p><strong>Multiple Choice Quizzes</strong>. Includes Akari methods: Multiple Choice Quiz, Quiz </p></li>
+<li><p><strong>Oral assessment</strong>. Includes Akari methods: Oral examination, Presentation</p></li>
+<li><p><strong>Portfolios</strong>. Includes Akari method: Portfolio </p></li>
+<li><p><strong>Professional communication</strong>. Includes Akari methods: Memo, Policy brief, Policy paper, Policy report  </p></li>
+<li><p><strong>Problem sets</strong>. Includes Akari methods: Problem sets</p></li>
+<li><p><strong>Public-facing communication</strong>. Includes Akari methods: Blog post, Discussion post, Wiki entry, Wikipedia article</p></li>
+<li><p><strong>Research activities</strong>. Includes Akari methods: Research design, Research paper, Research project and Research report</p></li>
+<li><p><strong>Simulations and games.</strong></p></li>
+<li><p><strong>Working with pre-existing sources</strong>. Includes Akari methods: Literature Review, Annotated Bibliography</p></li>
+</ul>
+
+  </div>
+</section>
+
+    <section class="document-section" id="collaborative-assessment-design-decision-making-framework">
+  <header class="document-header">
+    <p class="eyebrow">Document 2</p>
+    <h1>Collaborative Assessment Design Decision Making Framework</h1>
+  </header>
+  <div class="document-content">
+<p><strong>Theoretical Foundation</strong></p>
+<p>This framework integrates four key areas of educational literature:</p>
+<p><strong>1. Assessment Design Decisions Framework</strong></p>
+<ol type="1">
+<li><p><strong>Source</strong>: Bearman, M., Dawson, P., Boud, D., Bennett, S., Hall, M., &amp; Molloy, E. (2016)</p></li>
+<li><p><strong>Citation</strong>: Support for assessment practice: developing the Assessment Design Decisions Framework. <em>Teaching in Higher Education</em>, 21(5), 545-556</p></li>
+<li><p><strong>DOI</strong>: 10.1080/13562517.2016.1160217</p></li>
+</ol>
+<p><strong>2. Evidence-Centered Assessment Design</strong></p>
+<ol type="1">
+<li><p><strong>Source</strong>: Huff, K., Steinberg, L., &amp; Matts, T. (2010)</p></li>
+<li><p><strong>Citation</strong>: The Promises and Challenges of Implementing Evidence-Centered Design in Large-Scale Assessment. <em>Applied Measurement in Education</em>, 23(4), 310-324</p></li>
+<li><p><strong>DOI</strong>: 10.1080/08957347.2010.510956</p></li>
+</ol>
+<p><strong>3. Teachers' and Students' Assessment Literacy</strong></p>
+<ol type="1">
+<li><p><strong>Source</strong>: Quilter, S. M., &amp; Gallini, J. K. (2000)</p></li>
+<li><p><strong>Citation</strong>: Teachers' Assessment Literacy and Attitudes. <em>The Teacher Educator</em>, 36(2), 115-131</p></li>
+<li><p><strong>DOI</strong>: 10.1080/08878730009555257</p></li>
+</ol>
+<p><strong>4. Student Partnership in Assessment and Feedback</strong></p>
+<ol type="1">
+<li><p><strong>Source</strong>: Deeley, S. J., &amp; Bovill, C. (2015)</p></li>
+<li><p><strong>Citation</strong>: Staff student partnership in assessment: enhancing assessment literacy through democratic practices. <em>Assessment &amp; Evaluation in Higher Education</em>, 42(3), 463-477</p></li>
+<li><p><strong>DOI</strong>: 10.1080/02602938.2015.1126551</p></li>
+</ol>
+<p><strong>Phase 1: Foundation and Purposes</strong></p>
+<p><strong>Core Components</strong></p>
+<p><strong>Define Purposes</strong></p>
+<ol type="1">
+<li><p>Formative assessment</p></li>
+<li><p>Summative assessment</p></li>
+<li><p>Ipsative assessment</p></li>
+<li><p>Diagnostic assessment</p></li>
+<li><p>Other assessment types as relevant</p></li>
+</ol>
+<p><strong>Analyse Constraints</strong></p>
+<ol type="1">
+<li><p>Programme context</p></li>
+<li><p>Institutional policies</p></li>
+<li><p>Available resources</p></li>
+<li><p>Time limitations</p></li>
+<li><p>Technical requirements</p></li>
+</ol>
+<p><strong>Mutual Understanding - ILOs in Varying Contexts</strong></p>
+<ol type="1">
+<li><p>Learner characteristics</p></li>
+<li><p>Student assessment experiences across course and programme level</p></li>
+<li><p>Career aspirations</p></li>
+<li><p>Cultural relevance</p></li>
+<li><p>Application of learning</p></li>
+</ol>
+<p><strong>Key Reflection Questions</strong></p>
+<ol type="1">
+<li><p>How would students like to apply their learning?</p></li>
+<li><p>How have students developed the disciplinary core ideas, cross-cutting concepts and skills?</p></li>
+<li><p>How do students make use of feedback?</p></li>
+<li><p>What interactions and relationships foster learning?</p></li>
+</ol>
+<p><strong>Phase 2: Design and Alignment</strong></p>
+<p><strong>Core Components</strong></p>
+<p><strong>Identify Targeted Performances and Expectations</strong></p>
+<ol type="1">
+<li><p>Develop marking criteria</p></li>
+<li><p>Define performance standards</p></li>
+<li><p>Establish clear expectations</p></li>
+</ol>
+<p><strong>Unpack Disciplinary Elements</strong></p>
+<ol type="1">
+<li><p><strong>Core Ideas</strong>: Fundamental concepts within the discipline</p></li>
+<li><p><strong>Practices</strong>: Discipline-specific methods and approaches</p></li>
+<li><p><strong>Cross-cutting Concepts and Skills</strong>: Transferable competencies</p></li>
+</ol>
+<p><strong>Design Tasks and Activities</strong></p>
+<ol type="1">
+<li><p>Align with learning outcomes</p></li>
+<li><p>Consider authentic assessment opportunities</p></li>
+<li><p>Build in complexity progression</p></li>
+</ol>
+<p><strong>Plan Feedback Process</strong></p>
+<ol type="1">
+<li><p>Timing of feedback</p></li>
+<li><p>Types of feedback</p></li>
+<li><p>Feedback mechanisms</p></li>
+<li><p>Feed-forward opportunities</p></li>
+</ol>
+<p><strong>Define Interactions</strong></p>
+<ol type="1">
+<li><p><strong>Teacher-Student</strong>: Direct instruction, guidance, support</p></li>
+<li><p><strong>Student-Student</strong>: Peer learning, collaboration, peer assessment</p></li>
+</ol>
+<p><strong>Key Reflection Questions</strong></p>
+<ol type="1">
+<li><p>How do students currently engage with disciplinary core ideas and practices?</p></li>
+<li><p>What types of feedback will be most valuable for learning?</p></li>
+<li><p>What interaction patterns best support the learning objectives?</p></li>
+<li><p>How can peer learning enhance the assessment experience?</p></li>
+</ol>
+<p><strong>Phase 3: Validating Assessment for Validity, Fairness and Integrity</strong></p>
+<p><strong>Core Components</strong></p>
+<p><strong>Validity Check</strong></p>
+<ol type="1">
+<li><p>Do tasks enable students to demonstrate their ILOs fairly and inclusively?</p></li>
+<li><p>Are assessment methods appropriate for the learning outcomes?</p></li>
+<li><p>Is there alignment between teaching, learning, and assessment?</p></li>
+</ol>
+<p><strong>Curriculum Support Analysis</strong></p>
+<ol type="1">
+<li><p>Is the course curriculum adequately preparing students for the assessment tasks?</p></li>
+<li><p>Are there gaps between what is taught and what is assessed?</p></li>
+<li><p>Do students have opportunities to practice before summative assessment?</p></li>
+</ol>
+<p><strong>Feedback and Grading Evaluation</strong></p>
+<ol type="1">
+<li><p>Do the feedback mechanisms serve their intended purpose?</p></li>
+<li><p>Are grading criteria transparent and consistently applied?</p></li>
+<li><p>Does the assessment provide meaningful information about student learning?</p></li>
+</ol>
+<p><strong>Key Reflection Questions</strong></p>
+<ol type="1">
+<li><p>Are there barriers for students to engage with the assessment tasks?</p></li>
+<li><p>What pedagogical activities are deliberately designed to remove those barriers?</p></li>
+<li><p>How do teachers make use of feedback and grades to inform their teaching?</p></li>
+<li><p>Is the assessment inclusive of diverse learning styles and backgrounds?</p></li>
+</ol>
+<p><strong>Phase 4: Design and Build the Assessment</strong></p>
+<p><strong>Core Components</strong></p>
+<p><strong>Effectiveness and Efficiency</strong></p>
+<ol type="1">
+<li><p>Are the assessments effective in measuring intended outcomes?</p></li>
+<li><p>Is the time investment proportional to the learning value?</p></li>
+<li><p>Can the assessment be administered and marked efficiently?</p></li>
+</ol>
+<p><strong>Assessment Optionality and Adjustments</strong></p>
+<ol type="1">
+<li><p>Are there alternative assessment options for students requiring adjustments?</p></li>
+<li><p>Is there flexibility in assessment format while maintaining standards?</p></li>
+<li><p>How are reasonable adjustments implemented?</p></li>
+</ol>
+<p><strong>Technology and GenAI Considerations</strong></p>
+<ol type="1">
+<li><p>How do learning technologies affect student engagement with tasks?</p></li>
+<li><p>What role does GenAI play in the assessment process?</p></li>
+<li><p>Are there appropriate guidelines for technology use?</p></li>
+<li><p>How is academic integrity maintained in digital environments?</p></li>
+</ol>
+<p><strong>Key Reflection Questions</strong></p>
+<ol type="1">
+<li><p>What learning technologies are currently used and how do they affect assessment experiences?</p></li>
+<li><p>Are there alternative ways to assess learning that might be more effective?</p></li>
+<li><p>Do uses of GenAI affect student engagement with learning and assessment as planned?</p></li>
+<li><p>How can technology enhance rather than hinder the assessment process?</p></li>
+</ol>
+<p><strong>Implementation Principles</strong></p>
+<p><strong>Iterative Design</strong></p>
+<ol type="1">
+<li><p>The framework operates as a cycle, not a linear process</p></li>
+<li><p>Each phase informs and can trigger revision of previous phases</p></li>
+<li><p>Continuous improvement through feedback loops</p></li>
+</ol>
+<p><strong>Student Partnership</strong></p>
+<ol type="1">
+<li><p>Students as co-designers in assessment planning</p></li>
+<li><p>Regular consultation on assessment experiences</p></li>
+<li><p>Transparency in assessment purposes and processes</p></li>
+<li><p>Development of assessment literacy for all participants</p></li>
+</ol>
+<p><strong>Evidence-Centred Approach</strong></p>
+<ol type="1">
+<li><p>Decisions grounded in educational research</p></li>
+<li><p>Data-informed modifications and improvements</p></li>
+<li><p>Clear documentation of design rationale</p></li>
+<li><p>Regular evaluation of assessment effectiveness</p></li>
+</ol>
+<p><strong>Inclusive Practice</strong></p>
+<ol type="1">
+<li><p>Universal Design for Learning principles</p></li>
+<li><p>Cultural responsiveness in assessment design</p></li>
+<li><p>Multiple means of demonstrating learning</p></li>
+<li><p>Proactive removal of barriers to engagement</p></li>
+</ol>
+<p><strong>Using This Framework</strong></p>
+<p><strong>For New Assessment Design</strong></p>
+<ol type="1">
+<li><p>Start with Phase 1 to establish clear foundations</p></li>
+<li><p>Progress through each phase systematically</p></li>
+<li><p>Document decisions and rationale at each stage</p></li>
+<li><p>Review and revise based on validation outcomes</p></li>
+<li><p>Implement with monitoring and adjustment mechanisms</p></li>
+</ol>
+<p><strong>For Existing Assessment Review</strong></p>
+<ol type="1">
+<li><p>Begin with Phase 3 validation to identify current issues</p></li>
+<li><p>Work backwards to identify root causes in earlier phases</p></li>
+<li><p>Make targeted improvements based on findings</p></li>
+<li><p>Re-validate after implementing changes</p></li>
+<li><p>Document lessons learned for future iterations</p></li>
+</ol>
+<p><strong>For Continuous Improvement</strong></p>
+<ol type="1">
+<li><p>Regular review cycles aligned with course evaluation</p></li>
+<li><p>Student feedback integration after each assessment cycle</p></li>
+<li><p>Peer review of assessment practices</p></li>
+<li><p>Professional development in assessment design</p></li>
+<li><p>Sharing of best practices across teaching teams</p></li>
+</ol>
+<p><strong>Quick Reference Checklist</strong></p>
+<p><strong>Phase 1 Checklist</strong></p>
+<ol type="1">
+<li><p>Assessment purposes clearly defined</p></li>
+<li><p>Constraints identified and documented</p></li>
+<li><p>Student contexts and needs understood</p></li>
+<li><p>Learning outcomes articulated in student-friendly language</p></li>
+</ol>
+<p><strong>Phase 2 Checklist</strong></p>
+<ol type="1">
+<li><p>Performance criteria developed</p></li>
+<li><p>Disciplinary elements unpacked</p></li>
+<li><p>Tasks designed and aligned</p></li>
+<li><p>Feedback process planned</p></li>
+<li><p>Interaction patterns defined</p></li>
+</ol>
+<p><strong>Phase 3 Checklist</strong></p>
+<ol type="1">
+<li><p>Validity confirmed</p></li>
+<li><p>Fairness evaluated</p></li>
+<li><p>Integrity measures in place</p></li>
+<li><p>Curriculum alignment verified</p></li>
+<li><p>Barriers identified and addressed</p></li>
+</ol>
+<p><strong>Phase 4 Checklist</strong></p>
+<ol type="1">
+<li><p>Effectiveness tested</p></li>
+<li><p>Efficiency optimized</p></li>
+<li><p>Adjustments available</p></li>
+<li><p>Technology integration planned</p></li>
+<li><p>GenAI guidelines established</p></li>
+</ol>
+
+  </div>
+</section>
+
+    <section class="document-section" id="effective-feedback">
+  <header class="document-header">
+    <p class="eyebrow">Document 3</p>
+    <h1>Effective feedback</h1>
+  </header>
+  <div class="document-content">
+<h2 id="effective-feedback-principle-7-plan-timely-and-actionable-feedback-that-students-can-apply-to-improve-future-learning"><br/>
+Principle 7 - Plan timely and actionable feedback that students can apply to improve future learning</h2>
+<p>Assessment feedback includes all feedback exchanges generated within assessment design, occurring within and beyond the immediate learning context, being overt or covert (actively and/or passively sought and/or received), and importantly, drawing from a range of sources (Evan, 2013). This systematic approach encompasses the entire assessment cycle - from initial task design through to students applying feedback in future work. It emphasizes why feedback must be carefully planned and timed (Principle 7) - Effective feedback operates as an ongoing dialogue rather than isolated moments of judgment, where each exchange builds upon the last to create a developmental conversation throughout the course.</p>
+<p>Two planning approaches could be considered -</p>
+<p>Constructively aligning with the course ILOs and assessment strategy, different feedback approaches can be planned ahead to bridge learning.</p>
+<ul>
+<li><p>Rapid, targeted feedback on early work could address misconceptions while building confidence and understanding of academic standards.</p></li>
+<li><p>Ipsative feedback could track individual progress with practice opportunities and mid-process guidance.</p></li>
+<li><p>Comprehensive feedback could examine integration of concepts, disciplinary conventions, with clear feed-forward elements</p></li>
+<li><p>Multi-perspective feedback could incorporate peer input, group dynamics, and collective reflection</p></li>
+<li><p>Inner feedback activated by metacognitive prompts and self-evaluation tools could develop independent assessment and learning strategies</p></li>
+</ul>
+<p>Consider varying these dimensions across your course:</p>
+<ul>
+<li><p><strong>Sources</strong>: Teacher-led, peer-to-peer, self-assessment, external reviewers</p></li>
+<li><p><strong>Modes</strong>: Written, verbal, audio, visual, interactive</p></li>
+<li><p><strong>Timing</strong>: Immediate, short-cycle (days), longer-cycle (weeks)</p></li>
+</ul>
+<p><a href="https://info.lse.ac.uk/staff/divisions/Teaching-and-Learning-Centre/Assets/Documents/Resources-Feedback-2-Oct-18/18-0730-Proforma-Feedback-V2.pdf">Adapting the feedback pro-forma</a> and <a href="https://info.lse.ac.uk/staff/divisions/Teaching-and-Learning-Centre/Assets/Documents/Resources-Feedback-2-Oct-18/18-0730-Proforma-Collective-Feedback-V2.pdf">Adapting the collective feedback pro-forma</a> both suggest practical ways to encourage discussion.</p>
+<p>The pro-forma themselves are available via the links below:</p>
+<ul>
+<li><p><a href="https://info.lse.ac.uk/staff/divisions/Teaching-and-Learning-Centre/Assets/Documents/Resources-Feedback-2-Oct-18/Feedback-Proforma-for-web.docx">Feedback pro-forma</a></p></li>
+<li><p><a href="https://info.lse.ac.uk/staff/divisions/Teaching-and-Learning-Centre/Assets/Documents/Resources-Feedback-2-Oct-18/CollectiveFeedback-Proforma-for-web.docx">Collective feedback pro-forma</a></p></li>
+</ul>
+<p>When thinking about how to adapt the pro-forma, you might find it useful to look at examples that have been adapted to provide feedback on:</p>
+<ul>
+<li><p><a href="https://info.lse.ac.uk/staff/divisions/Teaching-and-Learning-Centre/Assets/Documents/Resources-Feedback-2-Oct-18/Feedback-OralPresentation.docx">An oral presentation</a></p></li>
+<li><p><a href="https://info.lse.ac.uk/staff/divisions/Teaching-and-Learning-Centre/Assets/Documents/Resources-Feedback-2-Oct-18/Feedback-BlogPost.docx">A blog post</a></p></li>
+</ul>
+<p><a href="https://doi.org/10.1080/02602938.2013.875985">Barker and Pinard (2014)</a> suggest a variety of activities that should encourage students to engage with feedback, including:</p>
+<ul>
+<li><p>Ask students to anticipate their grade and/or write their own evaluation</p></li>
+<li><p>Encourage/require students to give a written or verbal response to their teacher's feedback</p></li>
+<li><p>Teachers could design a series of linked assessment exercises in which students are expected to apply feedback in order to improve a piece of work. Additional marks could be awarded where students are explicit in using teacher comments.</p></li>
+</ul>
+<p>If you would to discuss introducing any of these activities into your teaching context, please <a href="https://info.lse.ac.uk/staff/divisions/Eden-Centre/Departmental-Advising">contact your Eden Centre advisers</a>.</p>
+<p>What additional resource might enable your students to understand feedback</p>
+<p><a href="https://info.lse.ac.uk/current-students/lse-life">LSE LIFE</a> is LSE\'s centre for academic, personal and professional development for students. Students can participate in workshops and/or request one-to-one sessions with student advisers or access the LSE LIFE Moodle site for independent study.</p>
+<p><a href="https://doi.org/10.1080/03069400.2013.851336">Withey (2013)</a> summarises a range of research all of which highlights that even when good feedback practices are introduced students' lack of understanding of feedback given prevents the effective use of that feedback. Withey's paper examines two strategies that proved useful -- a feedback guide for students and feedback literacy exercises that can be incorporated into teaching and learning activities.</p>
+<ul>
+<li><p>The Department of Social Policy has produced a <a href="https://info.lse.ac.uk/staff/divisions/Teaching-and-Learning-Centre/Assets/Documents/Handbooks/Handbooks-2018-19/FeedbackHandbookFinal.PDF">student guide to using feedback effectively</a>. If you would like to adapt this guide for your teaching context, please email <a href="mailto:eden@lse.ac.uk">eden@lse.ac.uk</a></p></li>
+<li><p>We have produced some examples of <a href="https://info.lse.ac.uk/staff/divisions/Teaching-and-Learning-Centre/Assets/Documents/Resources-Feedback-2-Oct-18/Feedback-activities.docx">feedback literacy exercises</a> and accompanying student worksheets that can be used in the classroom.</p></li>
+<li><p><a href="https://info.lse.ac.uk/staff/divisions/Eden-Centre/Resources-to-support-your-practice/one">What learning technologies can support feedback to students?</a></p></li>
+<li><p>The LSE<a href="http://lti.lse.ac.uk/moodleportal/assessment-and-feedback-in-moodle/"> Moodle Guide</a> provides guidance on how Moodle to support feedback processes.</p></li>
+<li><p>Dr Connson Locke (Department of Management) provides a <a href="http://lti.lse.ac.uk/case-study-marking-moderating-and-providing-student-feedback-online/">useful case study</a>detailing how to manage marking and moderation processes and provide feedback to students online.</p></li>
+<li><p>Audio feedback is <a href="http://lti.lse.ac.uk/moodleportal/assessment-and-feedback-in-moodle/provide-audio-feedback-for-an-assignment/">now available easily through Moodle</a>, and studies have found students respond positively to feedback provided in this way (Lunt and Curran, 2009).</p></li>
+<li><p>We have produced a <a href="https://info.lse.ac.uk/staff/divisions/Teaching-and-Learning-Centre/Assets/Documents/Resources-Feedback-2-Oct-18/AudioFeedback.docx">handout that covers issues you might like to consider</a> when implementing audio feedback.</p></li>
+</ul>
+<h3 id="effective-feedback-how-can-peer-feedback-be-used">How can peer feedback be used?</h3>
+<p><a href="https://doi.org/10.1080/02602938.2013.795518">Nicol, Thomson and Brevlin (2013)</a> summarise evidence relating to both the learning benefits that result from the receipt of peer feedback and the learning mechanisms activated through producing feedback reviews for peers.</p>
+<p>In summary:</p>
+<ul>
+<li><p>It enables the development of critical reflection skills and the ability to give constructive feedback to peers.</p></li>
+<li><p>It enables students to gain initial feedback on their work, and in a timely manner, that they can respond to in future assignments.</p></li>
+<li><p>It enables students to engage with assessment criteria and internalise them for application in their own work.</p></li>
+</ul>
+<p>There are many opportunities to engage students in peer feedback:</p>
+<ul>
+<li><p>Examples of whole or sections of essays (strong, average and weaker ones) can be given to students to peer-mark and discuss.</p></li>
+<li><p>Students are asked to develop the criteria by which formative assignments (e.g. a presentation, a poster presentation or a blog or web-derived bibliography) are assessed, either by peer(s) and/or the teacher.</p></li>
+<li><p>Students are asked to identify one or two specific areas they would like feedback on for a particular piece of work from a peer or peer study group.</p></li>
+<li><p>When students are observing presentations by their peers they can complete a simple feedback form, which are passed on to the presenters at the end of the session.</p></li>
+</ul>
+<p>Many of the above suggestions for feedback can be supported online through Moodle.</p>
+<p>Dr Flora Cornish (Department of Methodology) provides <a href="http://lti.lse.ac.uk/case-study-peer-feedback-on-student-presentations/">a useful case study</a> outlining how students used TEAMMATES software to provide peer feedback on presentations.</p>
+
+  </div>
+</section>
+
+    <section class="document-section" id="lse-assessment-and-feedback-principles-2025">
+  <header class="document-header">
+    <p class="eyebrow">Document 4</p>
+    <h1>LSE assessment and feedback principles 2025</h1>
+  </header>
+  <div class="document-content">
+<h2 id="lse-assessment-and-feedback-principles-2025-assessment-and-feedback-principles-at-lse">Assessment and Feedback Principles at LSE</h2>
+<p>These principles reflect LSE’s unique educational context and distinctive mix of single and joint social science degree programmes, as well as strategic institutional priorities and broader sectoral, local and global contexts. They recognise the importance of designing assessment across a programme as well as the unique challenges where LSE students have significant freedom to create their own degree pathways.</p>
+<p>Emphasis is placed on achieving consistency in assessment design across the institution while recognising the high value placed on student agency in selecting the courses they are most interested in, and on departmental autonomy in the design of curriculum. Developing curriculum coherence and understanding the impact of assessment and feedback across multiple courses are at the core of enhancing assessment.</p>
+<p>The principles are actionable and invite engagement by balancing the imperatives of maintaining rigour and high academic standards, the primacy of disciplinary perspectives and academic programme ownership and the School’s response to the dynamic development of generative AI tools.</p>
+<p>Embedding these principles will help in defining a more inclusive, supportive, and forward-thinking assessment environment to enable our students to excel on their programmes and achieve outstanding academic outcomes.</p>
+<p>This set of 10 active principles are designed to enable Departments, programme directors and course convenors to advance assessment improvements. LSE Assessment and Feedback Principles</p>
+<ol type="1">
+<li><p>Develop programme-focused assessment strategies that balance diversity and workload across student pathways. </p></li>
+<li><p>Align assessments with intended learning outcomes to ensure validity. </p></li>
+<li><p>Design assessments that cultivate research, professional skills and competencies for global citizenship.  </p></li>
+<li><p>Embed a sense of scholarly integrity and ethical responsibility towards assessment. </p></li>
+<li><p>Implement inclusive assessments that recognise and support all student needs. </p></li>
+<li><p>Connect formative and summative assessments to promote student development and achievement. </p></li>
+<li><p>Plan timely and actionable feedback that students can apply to improve future learning. </p></li>
+<li><p>Leverage technology to develop critical digital literacies and digitise assessment processes.</p></li>
+<li><p>Communicate clearly to students the assessment tasks, guidelines and marking criteria. </p></li>
+<li><p>Review and refine assessment practices regularly using robust data and evidence, working in partnership with students as appropriate.</p></li>
+</ol>
+
+  </div>
+</section>
+
+    <section class="document-section" id="lse-assessment-toolkit">
+  <header class="document-header">
+    <p class="eyebrow">Document 5</p>
+    <h1>LSE Assessment Toolkit</h1>
+  </header>
+  <div class="document-content">
+<h2 id="lse-assessment-toolkit-introduction">Introduction</h2>
+<p>Assessment is an integral part of the learning process. Adopting a blend of assessment methods can make a significant, positive impact on student performance. There is a wealth of academic research into the nature of learning to support teachers in making informed decisions about their assessment.</p>
+<p>The starting point for course- and programme-level assessment design is to identify exactly what we expect our students to learn (the intended learning outcomes). This will include the areas of knowledge and the critical thinking, disciplinary and other academic skills they will be developing. Defining these learning outcomes enables teachers to make better choices about both formative and summative assessments. This approach takes us beyond notions of exams as either being good or bad, or assuming that variety alone is adequate justification for diversification of assessment. This process underpinned the undergraduate programme review undertaken by LSE during 2017/18.</p>
+<p>Diversifying assessment methods can also allow a greater range of students to demonstrate their abilities, particularly when academics design methods to be inclusive (see Accessible assessment).</p>
+<h2 id="lse-assessment-toolkit-key-areas-of-consideration">Key Areas of Consideration</h2>
+<h3 id="lse-assessment-toolkit-1-learning-outcomes-and-assessment-alignment">1. Learning Outcomes and Assessment Alignment</h3>
+<p>Successful assessment is a planned activity organised around what a course or programme expects students to learn. We might call these expectations 'learning outcomes' and they are commonly stated in the form: By the end of this course, students will be able to do X. The role of assessment is to check how well students have achieved in relation to these learning outcomes. This is done through formative and summative assessment.</p>
+<p>Formative assessment is a tool for checking student progress and offering them feedback on how to improve during the course of their studies. Summative assessment judges how well a student has done in relation to set marking criteria that have been drawn from the learning outcomes and offers a final grade or mark (Earl &amp; Katz, 2006). In this way, formative assessment 'informs' future learning and summative assessment summarises learning. Good assessment protocol aligns formative assessment and summative assessment with learning outcomes so that students can implement what they have learned from the formative experiences into subsequent summative assessments (see Biggs, 2003).</p>
+<h3 id="lse-assessment-toolkit-2-principles-of-assessment-diversification">2. Principles of Assessment Diversification</h3>
+<p>Diversification of assessment does not necessarily mean adding multiple new methods of assessment to single courses. The purpose is not to overload our students with more assessment points but rather to enable our students – where appropriate depending on the nature of particular courses and the particular discipline – to learn progressively from completing a range of different assessments with the accompanying skills development that this will involve.</p>
+<p>The assessment of courses should be based on the intended learning outcomes; therefore the range of assessment methods should be developed by reflecting on the 'best' way to assess these outcomes. Where courses have more than one assessment task it is also important to reflect upon the weight that is given to each task and for there to be a clear rationale behind such weighting. Moreover, spreading assessment across the academic year with a mix of methods of assessment and opportunities for formative development is likely to induce students to study progressively rather than to reward cramming at the end of the academic year cycle.</p>
+<h3 id="lse-assessment-toolkit-3-feedback-opportunities">3. Feedback Opportunities</h3>
+<p>A diversified set of assessments spread evenly throughout the academic year opens up possibilities for making better use of feedback opportunities. All moments of assessment are opportunities for learning and these are clearly more effective when they are embedded in ongoing processes of feedback and dialogue among staff and students. The only real difference between formative and summative assessments is whether performance on these assessment tasks is used as a formal measure of a student's achievement and thus contributes to the final grade of the students.</p>
+<p>A mix of formative and summative assessment is desirable to encourage students to work steadily and progressively towards the achievement of their learning outcomes and to ensure students have opportunities to practice and improve their performance. In this vein enabling students to receive student feedback on all forms of assessed work can also be considered an integral part of the learning process. The objective is to enable our students to learn well and perform successfully. Students should receive feedback on formative assessment within three weeks of submission, as defined in the Codes of Good Practice. In addition, students will receive feedback on summative assessment completed during a course prior to the examination period.</p>
+<h3 id="lse-assessment-toolkit-4-inclusive-assessment-design">4. Inclusive Assessment Design</h3>
+<p>A combination of methods of assessment is good practice from an inclusive design perspective. Students are likely to perform differently on different assessments depending on a range of factors including cultural and educational backgrounds, mental wellbeing and so on. This does not mean making assessment 'easier' to benefit a particular group of students. The underlying principle behind assessment remains unchanged, that is assessment should be designed to support learning and to enable students to demonstrate that they have acquired course or programme learning outcomes (Waterfield and West, 2006). But at the same time, it seems fair to design in a range of different assessment tasks - with clear guidelines, marking criteria and marking schemes that are made available to students from the outset – so that success is achievable for all students.</p>
+<h3 id="lse-assessment-toolkit-5-creativity-in-assessment">5. Creativity in Assessment</h3>
+<p>Moving away from an overwhelming reliance on closed book time-constrained exam-based assessment may provide academics and students alike with an opportunity for creativity in the design and development of assessments, and creativity on the part of our students as they experience new forms of learning and develop a range of skills. This will also equip them to be effective members of society and participants in the labour market.</p>
+<h3 id="lse-assessment-toolkit-6-reducing-student-stress">6. Reducing Student Stress</h3>
+<p>It is clear that concentrating the majority of summative assessment in a series of one-off time constrained 100% examinations mainly in the summer term is extremely stressful for many students. It can also appear to depreciate the value of prior learning on the programme by reducing a year or several years' hard work into a single exam period. A bunch of assessments at particular times in the academic year such as the end of reading weeks or at the end of term may also have the same effect. A regular spread of different assessment tasks throughout the academic year reduces this seemingly 'all or nothing' mind-set and also encourages a more incremental, progressive approach to learning.</p>
+<h3 id="lse-assessment-toolkit-7-preparing-students-for-the-labour-market">7. Preparing Students for the Labour Market</h3>
+<p>Some colleagues object to the idea of higher education, and the ways of thinking and practicing in a particular discipline, being reducible to preparing students to join the labour market. At the same time, we cannot ignore the fact that upon leaving higher education, students will be looking for jobs and becoming involved in other societal activities where they will want to make a valuable and effective contribution drawing on a range of skills. Time-constrained examinations test students' ability to perform under pressure in an isolated environment. However, work and other activities are often done collectively, over extended periods of time and involve a broad range of skills - such as the ability to communicate and collaborate in virtual settings, present ideas orally and work in groups or teams. This is another factor which suggests a diversity of assessment is advantageous for our students.</p>
+<h2 id="lse-assessment-toolkit-course-development-process">Course Development Process</h2>
+<p>Developing a course should start by considering what it is that students would be expected to learn and reflecting on the skills that they will develop as a result of studying on this course. Typically this will be a list of 4-5 intended learning outcomes. Since students are studying at different levels the learning outcomes should reflect this - for further guidance on setting appropriate learning outcomes, teachers should consult with their Eden Centre Departmental Advisers.</p>
+<p>Once these have been established, teachers should reflect upon the best ways to assess these outcomes – thinking about the methods of assessment and the conditions under which the assessment task will be taken. While summative assessment offers a chance to test and grade student learning, consideration should also be given to the role of formative assessment – where students are assessed as a means of supporting their future learning.</p>
+<p>Having developed the intended learning outcomes and assessment tasks, teachers should then consult with the Eden Centre Departmental Advisers and their Academic Subject Librarian to gather insight into how best to structure and resource the course. At this stage a Course and Programme Information System (CAPIS) form should be completed.</p>
+<h2 id="lse-assessment-toolkit-additional-resources">Additional Resources</h2>
+<ul>
+<li><p>Guidance on approving changes to summative assessment or a new course</p></li>
+<li><p>Alternative forms for resits</p></li>
+</ul>
+<h2 id="lse-assessment-toolkit-references">References</h2>
+<ul>
+<li><p>Biggs, J. (2003)</p></li>
+<li><p>Earl &amp; Katz (2006)</p></li>
+<li><p>Waterfield and West (2006)</p></li>
+</ul>
+<p><strong>Source: LSE Eden Centre Assessment Toolkit </strong></p>
+<p>URL: <a href="https://info.lse.ac.uk/staff/divisions/Eden-Centre/Assessment-Toolkit/Diversifying-assessment*">https://info.lse.ac.uk/staff/divisions/Eden-Centre/Assessment-Toolkit/Diversifying-assessment*</a></p>
+
+  </div>
+</section>
+
+    <section class="document-section" id="marking-and-moderation-lse-assessment-toolkit">
+  <header class="document-header">
+    <p class="eyebrow">Document 6</p>
+    <h1>Marking and Moderation LSE Assessment Toolkit</h1>
+  </header>
+  <div class="document-content">
+<h2 id="marking-and-moderation-lse-assessment-toolkit-marking-and-moderation"><br/>
+Marking and moderation</h2>
+<p>Rigorous marking and moderation processes ensure assessments are valid by aligning grades with intended learning outcomes while also upholding fairness through consistent <a href="https://info.lse.ac.uk/staff/divisions/Eden-Centre/Assets-EC/Documents/Assessment-Toolkit/WhatisSBA-Final.pdf">application of standards</a> across markers and cohorts.</p>
+<p><strong>Key points to consider:</strong> </p>
+<ul>
+<li><p>The 'right' approach to marking should be based on a reflection of <a href="https://info.lse.ac.uk/staff/divisions/Eden-Centre/Assessment-and-Feedback-Toolkit/Assessment-methods/Assessment-methods">the assessment method</a>.</p></li>
+<li><p>Marking criteria need to ensure assessments measure the intended learning outcomes while moderation promotes consistency in understanding and applying academic standards.</p></li>
+<li><p>Assessment guidance and criteria must be communicated clearly and consistently across all channels to enable an effective feedback process.</p></li>
+</ul>
+<p>There are three approaches to marking summative work at LSE: double-blind marking, sighted double marking, and moderated single marking. These three approaches all involve a second examiner. The default position is double-blind marking but this is not always possible with some assessment methods (such as class participation).</p>
+<h3 id="marking-and-moderation-lse-assessment-toolkit-double-blind-marking">Double-blind marking </h3>
+<p>First marker marks all assessed work. Second marker marks all work, without seeing the first marker's grades/comments. Where there are any differences in mark, the two markers discuss and agree the final mark (usually meeting in person, but potentially by email/phone/other).</p>
+<p><strong>Pros</strong></p>
+<ul>
+<li><p>Reduces 'random distortions' which might occur in an individual's marking, increasing reliability.</p></li>
+<li><p>Markers can have slightly different perspectives, leading to a more rounded evaluation.</p></li>
+<li><p>Students may understand this to be a fair and reliable form of marking.</p></li>
+</ul>
+<p><strong>Cons</strong></p>
+<ul>
+<li><p>Agreeing marks may be mainly done by 'splitting the difference' which draws marks towards the middle of the available range.</p></li>
+<li><p>Writing and grading with an eye to justification may lead to 'defensive' grading (and thus lower grades).</p></li>
+<li><p>High overall marking loads for each marker.</p></li>
+</ul>
+<h3 id="marking-and-moderation-lse-assessment-toolkit-sighted-double-marking">Sighted double marking</h3>
+<p>First marker marks all assessed work. Second marker reads all work, with sight of the first marker grades/comments, and evaluates the appropriateness of the first markers' grades/comments. If the second marker proposes any changes to marks, markers discuss and agree the mark, or second marker changes marks.</p>
+<p><strong>Pros</strong></p>
+<ul>
+<li><p>Less time-intensive than double-blind marking, while retaining the potential for students to benefit from different perspectives.</p></li>
+<li><p>Can be a good way to introduce new markers into an established process.</p></li>
+<li><p>Works as a check on the markers as well as the marking.</p></li>
+</ul>
+<p><strong>Cons</strong></p>
+<ul>
+<li><p>For handwritten exams, sighted marking can require a long turnaround time, as the second marker must wait for all work and marks/comments from the first marker.</p></li>
+<li><p>Second marker may be influenced by the marks/comments of the first.</p></li>
+<li><p>Pre-existing hierarchies of expertise or experience may impact the process.</p></li>
+</ul>
+<h3 id="marking-and-moderation-lse-assessment-toolkit-moderated-single-marking">Moderated single marking </h3>
+<p>First marker marks all assessed work. Second marker considers (with sight of first marker's marks/comments) a selection of pieces of work, similar to that sent to an external examiner. A typical sample might include all borderline cases; all work graded 'fail'; all first class work, and 10% of all other pieces.</p>
+<p><strong>Pros</strong></p>
+<ul>
+<li><p>On a larger course, moderated single marking can be significantly quicker than double marking.</p></li>
+<li><p>A representative sample of work can allow markers to clarify the specific qualities that establish a grade; in this way, the approach need not be less reliable than double marking. The scrutiny of borderline pieces of work can have a positive impact on student's programme outcomes and degree classification.</p></li>
+</ul>
+<p><strong>Cons</strong></p>
+<ul>
+<li><p>Some pieces of work only receive one academic's judgement.</p></li>
+<li><p>A sample of pieces of work may not adequately represent the first marker's work, and thus not allow an evaluation of their overall judgement.</p></li>
+<li><p>If the second marker substantially challenges the first marker's judgement, it may be necessary for another academic to re-do the first marker's marking.</p></li>
+</ul>
+<h2 id="marking-and-moderation-lse-assessment-toolkit-marking-criteria">Marking criteria</h2>
+<p>Marking criteria consist of a set of descriptive (not evaluative) statements that explicitly communicate to students what knowledge and skills will be assessed. Each assessment criterion should be accompanied by a set of pre-defined statements outlining different standards of achievement (1^st^, 2:1, etc.).</p>
+<h3 id="marking-and-moderation-lse-assessment-toolkit-defining-clear-and-transparent-marking-criteria">Defining clear and transparent marking criteria</h3>
+<p>Marking criteria or standards are agreed in advance by discussion between academic colleagues. This can help clarify the scope of potential valid answers. Students should be involved to review the new criteria and assess whether they are clear and meaningful to their peers.</p>
+<p>Calibration meetings and moderation processes can help to develop and embed this shared understanding, as well as ensuring markers feel prepared and supported in their role.</p>
+<p>Simple teaching activities such as peer assessment (against the criteria), class discussions (about marking criteria), the provision of exemplars, and even mock assessments can be used to prepare students to better understand how their work will be graded.</p>
+<h3 id="marking-and-moderation-lse-assessment-toolkit-effective-use-of-marking-criteria-for-marking-and-feedback">Effective use of marking criteria for marking and feedback</h3>
+<p>Marking student work requires markers to internalise marking criteria and interpret them against the assessment task. In practice, it involves one or two re-readings (depending on length, format, layout) and an iterative process of deciding marks.</p>
+<p>Marking criteria should be used to inform both evaluative judgements on students' work and the construction of feedback: feedback comments should be set against marking criteria and learning outcomes. (For more guidance on effective feedback see the '<a href="https://info.lse.ac.uk/staff/divisions/Eden-Centre/Resources-to-support-your-practice/Effective-feedback">Effective Feedback</a>' page of our Toolkit)</p>
+<h2 id="marking-and-moderation-lse-assessment-toolkit-supporting-marking-teams">Supporting marking teams</h2>
+<p>Working in teams to design, administrate and mark assessment is widespread in universities. This collaborative approach can reduce the workload for individual colleagues, yet when the work produced by a large cohort of students is marked by many markers, marking variation is likely to occur, i.e. a single piece of work may be marked differently by different markers. The quality of marking can be further affected by having a frequent change of markers. Research shows the following protocols can counter this marking variation issue.</p>
+<h3 id="marking-and-moderation-lse-assessment-toolkit-marking-calibration-before-the-marking-window">Marking Calibration before the marking window</h3>
+<p>This involves all markers discussing their viewpoints around a particular assessment piece to reach a consensus. This method may require significant effort by all teaching staff. The complexity of the assessment task and the characteristics of markers should be considered when deciding whether this process should be adopted.</p>
+<h3 id="marking-and-moderation-lse-assessment-toolkit-marking-guidance-to-support-individual-markers-during-the-marking-window">Marking guidance to support individual markers during the marking window</h3>
+<p>During the marking window, it is important to remind all colleagues of processes, and any shared resources to support them, and with seasonal markers, the course convener should schedule check-ins where required. The following shared resources are found useful by university teachers:</p>
+<ul>
+<li><p>FAQs on the marking criteria.</p></li>
+<li><p>A personal marking log file, which encourage markers to be self-aware of any personal biases and keep them in check.</p></li>
+<li><p>A Teams channel for quick communication between markers.</p></li>
+<li><p>Exemplar essays or model answers.</p></li>
+<li><p>A spreadsheet with common phrases for feedback.</p></li>
+<li><p>Guidelines on feedback, e.g. how much you should write, what form should it take etc., and/or a couple of 'good' examples of feedback from a past cohort.</p></li>
+</ul>
+<p>The table below shows one example of a judgement process when marking a large number of submissions.</p>
+<table class="content-table">
+<colgroup>
+<col style="width: 21%"/>
+<col style="width: 78%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Step 1: pre-marking</strong></th>
+<th><p><strong>Become familiar with the assessment brief, marking guidance and marking criteria.</strong></p>
+<p><strong>Pre-sort submissions into sets according to first scan and perceptions of quality. </strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Step 2: during marking</strong></td>
+<td><ul>
+<li><p>Refer to marking criteria. </p></li>
+<li><p>Check other students' work. </p></li>
+<li><p>Mark individually and construct the feedback. </p></li>
+<li><p>Mark in sets and compare their performance. </p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>Step 3: post-marking</strong></td>
+<td><p> </p>
+<ul>
+<li><p>Final checks and comparisons, such as:  </p>
+<ul>
+<li><p>Check if the feedback (e.g., tone, depth and criteria) matches the mark.</p></li>
+<li><p>Comparing earliest and latest marked work to confirm grading standards remained stable. </p></li>
+<li><p>Reviewing borderline cases (e.g., grades near classification thresholds) for fairness.</p></li>
+</ul></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+  </div>
+</section>
+
+    <section class="document-section" id="marking-criteria">
+  <header class="document-header">
+    <p class="eyebrow">Document 7</p>
+    <h1>Marking Criteria</h1>
+  </header>
+  <div class="document-content">
+<p>Marking criteria form a critical part of the <a href="https://info.lse.ac.uk/staff/divisions/Eden-Centre/Assets-EC/Documents/Assessment-Toolkit/WhatisSBA-Final.pdf">standards based assessment</a> process.</p>
+<ol type="1">
+<li><p>Marking criteria give <em><strong>students</strong></em> clarity on how their work will be assessed, detailing the qualities and characteristics that students' work should demonstrate to achieve certain grades or levels. They provide a clear basis for constructive feedback to help students improve their performance.</p></li>
+<li><p>By using marking criteria, <em><strong>educators</strong></em> can enhance consistency and fairness in marking and feedback process, making it transparent for both students and all the markers involved.</p></li>
+</ol>
+<h2 id="marking-criteria-what-are-marking-criteria">What are marking criteria?</h2>
+<p>Marking criteria consist of a set of descriptive (not evaluative) statements that explicitly communicate to students what knowledge and skills will be assessed. As such, when creating assessment criteria for an individual assessment task, we should ensure the criteria reflect the method of assessment. For example, the criteria relating to a poster presentation may look considerably different than that of an oral presentation, despite nominally addressing similar characteristics such as clarity, cogency, etc.</p>
+<p>Each assessment criteria should be accompanied by a set of pre-defined statements outlining different standards of achievement (1^st^, 2:1, etc.).</p>
+<h2 id="marking-criteria-defining-clear-and-transparent-marking-criteria">Defining clear and transparent marking criteria</h2>
+<p>The design of new marking criteria is an iterative and collaborative process. Course conveners can collaborate with teaching teams and with both internal and external examiners. As well as contributing to the development of the framework, such discussions serve to develop a shared understanding of assessment frameworks.</p>
+<p>Calibration meetings and moderation processes can help to develop and embed this shared understanding, as well as ensuring markers feel prepared and supported in their role.</p>
+<p>Simple teaching activities such as peer assessment (against the criteria), class discussions (about marking criteria), the provision of exemplars, and even mock assessments can be used to prepare students to better understand how their work will be graded.</p>
+<h2 id="marking-criteria-effective-use-of-marking-criteria-for-marking-and-feedback">Effective use of marking criteria for marking and feedback</h2>
+<p>Marking student work requires markers to internalise marking criteria and interpret them against the assessment task. In practice, it involves one or two re-readings (depending on length, format, layout) and an iterative process of deciding marks.</p>
+<p>Marking criteria should be used to inform both evaluative judgements on students' work and the construction of feedback: feedback comments should be set against marking criteria and learning outcomes. (For more guidance on effective feedback see the '<a href="https://info.lse.ac.uk/staff/divisions/Eden-Centre/Resources-to-support-your-practice/Effective-feedback">Effective Feedback</a>' page of our Toolkit)</p>
+<h2 id="marking-criteria-supporting-marking-teams-to-ensure-fair-and-consistent-marking">Supporting marking teams to ensure fair and consistent marking</h2>
+<p>Working in teams to design, administrate and mark assessment is widespread in universities. This collaborative approach can reduce the workload for individual colleagues, yet when the work produced by a large cohort of students is marked by many markers, marking variation is likely to occur, i.e. a single piece of work may be marked differently by different markers. The quality of marking can be further affected by having frequent changing markers. Research shows the following protocols can counter this marking variation issue.</p>
+<ul>
+<li><p><strong>Marking Calibration <em>before</em> the marking window</strong>-- this involves all markers discussing their viewpoints around a particular assessment piece to reach a consensus. This method may require significant effort by all teaching staff. The complexity of the assessment task and the characteristics of markers should be considered when deciding whether this process should be adopted.</p></li>
+</ul>
+<ul>
+<li><p><strong>Marking guidance to support individual markers <em>during</em> the marking window</strong></p></li>
+</ul>
+<p>During the marking window, it is important to remind all colleagues of processes, and any shared resources to support them, and with seasonal markers, the course convener should schedule check-ins where required. The following shared resources are found useful by university teachers:</p>
+<ul>
+<li><p>FAQs on the marking criteria</p></li>
+<li><p>A personal marking log file, which encourage markers to be self aware of any personal biases and keep them in check</p></li>
+<li><p>A team channel for quick communication between markers</p></li>
+<li><p>Exemplar essays or model answers</p></li>
+<li><p>A spreadsheet with common phrases for feedback</p></li>
+<li><p>Guidelines on feedback, e.g. how much you should write, what form should it take etc., and/or a couple of 'good' examples of feedback from a past cohort.</p></li>
+</ul>
+<p>The diagram below shows one example of a judgement process when marking a large number of submissions.</p>
+<h2 id="marking-criteria-references">References</h2>
+<p>Claire Wyatt‐Smith, Val Klenowski &amp; Stephanie Gunn (2010) The centrality of teachers' judgement practice in assessment: a study of standards in moderation, Assessment in Education: Principles, Policy &amp; Practice, 17:1, 59-75, DOI: <a href="https://doi.org/10.1080/09695940903565610">10.1080/09695940903565610</a></p>
+<p>D. Royce Sadler (2009) Indeterminacy in the use of preset criteria for assessment and grading, Assessment &amp; Evaluation in Higher Education, 34:2, 159-179, DOI: <a href="https://doi.org/10.1080/02602930801956059">10.1080/02602930801956059</a></p>
+
+  </div>
+</section>
+  </main>
+</body>
+</html>
